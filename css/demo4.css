@@ -1,0 +1,17 @@
+#circle{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #f1d123;
+    border-radius: 50%;
+    border-top-color: #b4e878;
+    border-bottom-color: #b4e878;
+    -webkit-animation: load 3s linear infinite;
+}
+@-webkit-keyframes load{
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
